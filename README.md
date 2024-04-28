@@ -1,5 +1,8 @@
 # VAR-CLIP
 Implements VAR+CLIP for image generation
+## Paper
+VAR: https://arxiv.org/abs/2404.02905  
+CLIP: https://arxiv.org/abs/2103.00020  
 ## Some example for images generation:
 
 ## Training Scripts
