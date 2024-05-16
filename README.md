@@ -3,8 +3,11 @@ Implements VAR+CLIP for image generation
 ## Paper
 VAR: https://arxiv.org/abs/2404.02905  
 CLIP: https://arxiv.org/abs/2103.00020  
-## Some example for images generation:
+## Some example for class-conditional generation:
+<img src="img/concatenated_image.jpg" width="400px"/> . 
 
+### TODO 
+- [x] Training on the ImageNet dataset has been completed.
 ## Training Scripts
 The relevant train code will be released soon, please stay tuned~
 ## License
