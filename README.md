@@ -3,10 +3,15 @@ Implements VAR+CLIP for image generation
 ## Paper
 VAR: https://arxiv.org/abs/2404.02905  
 CLIP: https://arxiv.org/abs/2103.00020  
+## Some example for text-conditional generation:
+<img src="img/show_res.png" width="800px"/> . 
+
 ## Some example for class-conditional generation:
-<img src="img/concatenated_image.jpg" width="800px"/> . 
+<img src="img/concatenated_image.jpg" width="800px"/> .
 
 ### TODO 
+- [ ] Relase train code.
+- [x] Training T2I on the ImageNet dataset has been completed.
 - [x] Training on the ImageNet dataset has been completed.
 ## Training Scripts
 The relevant train code will be released soon, please stay tuned~ . 
