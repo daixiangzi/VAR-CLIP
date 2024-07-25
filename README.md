@@ -10,7 +10,7 @@ CLIP: https://arxiv.org/abs/2103.00020
 <img src="img/concatenated_image.jpg" width="800px"/> .
 
 ### TODO 
-- [ ] Relase train code.
+- [ ] Relase train code and Arxiv.
 - [x] Training T2I on the ImageNet dataset has been completed.
 - [x] Training on the ImageNet dataset has been completed.
 ## Training Scripts
