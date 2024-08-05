@@ -1,5 +1,6 @@
 
 <div align="center">
+
 #  *VAR-CLIP*:<br> Text-to-Image Generator with Visual Auto-Regressive Modeling
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2408.01181-b31b1b.svg)](https://arxiv.org/abs/2408.01181)&nbsp;
 </div>
