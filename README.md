@@ -1,6 +1,7 @@
 # VAR-CLIP
 Implements VAR+CLIP for image generation
 ## Paper
+**VAR-CLIP**:http://arxiv.org/abs/2408.01181  
 VAR: https://arxiv.org/abs/2404.02905  
 CLIP: https://arxiv.org/abs/2103.00020  
 ## Some example for text-conditional generation:
@@ -10,7 +11,8 @@ CLIP: https://arxiv.org/abs/2103.00020
 <img src="img/concatenated_image.jpg" width="800px"/> .
 
 ### TODO 
-- [ ] Relase train code and Arxiv.
+- [ ] Relase train code today.
+- [x] Relase Arxiv.
 - [x] Training T2I on the ImageNet dataset has been completed.
 - [x] Training on the ImageNet dataset has been completed.
 ## Training Scripts
