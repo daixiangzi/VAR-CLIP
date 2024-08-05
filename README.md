@@ -10,7 +10,7 @@
 <p>
 
 > [**VAR-CLIP: Text-to-Image Generator with Visual Auto-Regressive Modeling**](https://arxiv.org/abs/2408.01181)<br>
-> Qian Zhang, [Xiangzi Dai](https://github.com/daixiangzi), Ninghua Yang, [Xiang An](https://github.com/anxiangsir), Ziyong Feng, Xingyu Ren
+> Qian Zhang, [Xiangzi Dai](https://github.com/daixiangzi), Ninghua Yang, [Xiang An](https://github.com/anxiangsir), Ziyong Feng, [Xingyu Ren](https://xingyuren.github.io/)
 > <br>Institute of Applied Physics and Computational Mathematics, DeepGlint,Shanghai Jiao Tong University
 > 
 ## Some example for text-conditional generation:
@@ -20,15 +20,34 @@
 <img src="img/concatenated_image.jpg" width="800px"/> .
 
 ### TODO 
-- [ ] Relase train code today.
+- [x] Relased train code.
 - [x] Relased Arxiv.
 - [x] Training T2I on the ImageNet dataset has been completed.
 - [x] Training on the ImageNet dataset has been completed.
+  
+## Getting Started
+### Requirements
+```bash
+pip install -r requirements.txt
+```
+### Download Pretrain model/Dataset
+<span style="font-siz15px;"> 1. Place the downloaded ImageNet train/val parts separately under **train/val** in the directory **./imagenet/**
+</span>   
+2. Download **clip/vae** pretrain model put on **pretrained/**
+   
+>[**Download ClIP_L14**](https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt)<br>
+>[**Download VAE**](https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth)<br>
+
 ## Training Scripts
-The relevant train code will be released soon, please stay tuned~ . 
-```shell
-#training VAR-d16 for 200 epochs on ImageNet 256x256 costs 3.5 days on 16 A100s  
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 torchrun --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr=127.0.0.1 --master_port=12356 train.py  --data_path=/dataset/imagenet/imagenet  --depth=16 --bs=768 --ep=200 --fp16=1 --alng=1e-3 --wpe=0.1
+```bash
+#training VAR-CLIP-d16 for 1000 epochs on ImageNet 256x256 costs 4.1 days on 64 A100s
+#Before running, you need to configure the IP addresses of multiple machines in the run.py file and data_path
+python run.py
+```
+## demo Scripts
+```bash
+#you can run demo_samle.ipynb get text-conditional generation resulets after train completed.
+demo_sample.ipynb
 ```
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

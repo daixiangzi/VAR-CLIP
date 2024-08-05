@@ -1,0 +1,10 @@
+torch~=2.1.0
+
+Pillow
+huggingface_hub
+numpy
+pytz
+transformers
+typed-argument-parser
+torchvision
+
