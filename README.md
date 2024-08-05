@@ -1,9 +1,18 @@
 # VAR-CLIP
-Implements VAR+CLIP for image generation
-## Paper
-**VAR-CLIP**:http://arxiv.org/abs/2408.01181  
-VAR: https://arxiv.org/abs/2404.02905  
-CLIP: https://arxiv.org/abs/2103.00020  
+<div align="center">
+
+#  *VAR-CLIP*:<br> Text-to-Image Generator with Visual Auto-Regressive Modeling
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2408.01181-b31b1b.svg)](https://arxiv.org/abs/2408.01181)&nbsp;
+</div>
+
+<p align="center">
+<img src="img/main.png" width=95%>
+<p>
+
+> [**VAR-CLIP: Text-to-Image Generator with Visual Auto-Regressive Modeling**](https://arxiv.org/abs/2408.01181)<br>
+> Qian Zhang, [Xiangzi Dai](https://github.com/daixiangzi), Ninghua Yang, [Xiang An](https://github.com/anxiangsir), Ziyong Feng, Xingyu Ren
+> <br>Institute of Applied Physics and Computational Mathematics, DeepGlint,Shanghai Jiao Tong University<
+> 
 ## Some example for text-conditional generation:
 <img src="img/show_res.png" width="800px"/> . 
 
@@ -12,7 +21,7 @@ CLIP: https://arxiv.org/abs/2103.00020
 
 ### TODO 
 - [ ] Relase train code today.
-- [x] Relase Arxiv.
+- [x] Relased Arxiv.
 - [x] Training T2I on the ImageNet dataset has been completed.
 - [x] Training on the ImageNet dataset has been completed.
 ## Training Scripts
