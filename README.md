@@ -11,7 +11,7 @@
 
 > [**VAR-CLIP: Text-to-Image Generator with Visual Auto-Regressive Modeling**](https://arxiv.org/abs/2408.01181)<br>
 > Qian Zhang, [Xiangzi Dai](https://github.com/daixiangzi), Ninghua Yang, [Xiang An](https://github.com/anxiangsir), Ziyong Feng, Xingyu Ren
-> <br>Institute of Applied Physics and Computational Mathematics, DeepGlint,Shanghai Jiao Tong University<
+> <br>Institute of Applied Physics and Computational Mathematics, DeepGlint,Shanghai Jiao Tong University
 > 
 ## Some example for text-conditional generation:
 <img src="img/show_res.png" width="800px"/> . 
