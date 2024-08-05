@@ -55,20 +55,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Citations
 
 ```bibtex
-@misc{unpublished2021clip,
-    title  = {CLIP: Connecting Text and Images},
-    author = {Alec Radford, Ilya Sutskever, Jong Wook Kim, Gretchen Krueger, Sandhini Agarwal},
-    year   = {2021}
-}
-```
-```bibtex
-@Article{VAR,
-      title={Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction}, 
-      author={Keyu Tian and Yi Jiang and Zehuan Yuan and Bingyue Peng and Liwei Wang},
+@misc{zhang2024varcliptexttoimagegeneratorvisual,
+      title={VAR-CLIP: Text-to-Image Generator with Visual Auto-Regressive Modeling}, 
+      author={Qian Zhang and Xiangzi Dai and Ninghua Yang and Xiang An and Ziyong Feng and Xingyu Ren},
       year={2024},
-      eprint={2404.02905},
+      eprint={2408.01181},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.01181}, 
 }
 ```
 * VAR - https://github.com/FoundationVision/VAR
