@@ -40,13 +40,13 @@ pip install -r requirements.txt
 
 ## Training Scripts
 ```bash
-#training VAR-CLIP-d16 for 1000 epochs on ImageNet 256x256 costs 4.1 days on 64 A100s
-#Before running, you need to configure the IP addresses of multiple machines in the run.py file and data_path
+# training VAR-CLIP-d16 for 1000 epochs on ImageNet 256x256 costs 4.1 days on 64 A100s
+# Before running, you need to configure the IP addresses of multiple machines in the run.py file and data_path
 python run.py
 ```
 ## demo Scripts
 ```bash
-#you can run demo_samle.ipynb get text-conditional generation resulets after train completed.
+# you can run demo_samle.ipynb get text-conditional generation resulets after train completed.
 demo_sample.ipynb
 ```
 ## License
@@ -55,14 +55,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Citations
 
 ```bibtex
-@misc{zhang2024varcliptexttoimagegeneratorvisual,
+@misc{zhang2024varclip,
       title={VAR-CLIP: Text-to-Image Generator with Visual Auto-Regressive Modeling}, 
       author={Qian Zhang and Xiangzi Dai and Ninghua Yang and Xiang An and Ziyong Feng and Xingyu Ren},
       year={2024},
-      eprint={2408.01181},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2408.01181}, 
+      journal={arXiv:2408.01181},
 }
 ```
 * VAR - https://github.com/FoundationVision/VAR
