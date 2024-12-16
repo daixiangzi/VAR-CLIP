@@ -19,7 +19,8 @@
 ## Some example for class-conditional generation:
 <img src="img/concatenated_image.jpg" width="800px"/> .
 
-### TODO 
+### TODO
+- [ ] Relased Pre_train model.
 - [x] Relased train code.
 - [x] Relased Arxiv.
 - [x] Training T2I on the ImageNet dataset has been completed.
