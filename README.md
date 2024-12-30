@@ -20,7 +20,7 @@
 <img src="img/concatenated_image.jpg" width="800px"/> .
 
 ### TODO
-- [ ] Relased Pre_train model.
+- [x] Relased Pre_trained model on ImageNet.
 - [x] Relased train code.
 - [x] Relased Arxiv.
 - [x] Training T2I on the ImageNet dataset has been completed.
@@ -38,6 +38,9 @@ pip install -r requirements.txt
    
 >[**Download ClIP_L14**](https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt)<br>
 >[**Download VAE**](https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth)<br>
+>[**Download VAR_CLIP Model Weight**](https://drive.google.com/file/d/1HlFgY3LysL0yDGSRvpi7bw7TwAztA2Ob/view?usp=drive_link)<br>
+
+
 
 ## Training Scripts
 ```bash
