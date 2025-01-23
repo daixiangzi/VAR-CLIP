@@ -43,7 +43,7 @@
     "# download checkpoint\n",
     "hf_home = 'https://huggingface.co/FoundationVision/var/resolve/main'\n",
     "vae_ckpts, var_ckpts = 'vae_ch160v4096z32.pth', f'var_d{MODEL_DEPTH}.pth'\n",
-    "vae_ckpt, var_ckpt = 'pretrained/vae_ch160v4096z32.pth', 'local_output/ar-ckpt-best.pth'\n",
+    "vae_ckpt, var_ckpt = 'pretrained/vae_ch160v4096z32.pth', 'local_output/ar-ckpt-last.pth'\n",
     "if not osp.exists(vae_ckpt): os.system(f'wget -P pretrained {hf_home}/{vae_ckpts}')\n",
     "if not osp.exists(var_ckpt): os.system(f'wget -P pretrained {hf_home}/{var_ckpts}')\n",
     "\n",
@@ -127,7 +127,8 @@
     "chw = torchvision.utils.make_grid(recon_B3HW, nrow=8, padding=0, pad_value=1.0)   \n",
     "chw = chw.permute(1, 2, 0).mul_(255).cpu().numpy()\n",
     "chw = PImage.fromarray(chw.astype(np.uint8))\n",
-    "chw.show()"
+    "chw.show()\n",
+    "chw.save(\"gen.png\")"
    ]
   }
  ],

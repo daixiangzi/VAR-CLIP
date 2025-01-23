@@ -35,10 +35,11 @@ pip install -r requirements.txt
 <span style="font-siz15px;"> 1. Place the downloaded ImageNet train/val parts separately under **train/val** in the directory **./imagenet/**
 </span>   
 2. Download **clip/vae** pretrain model put on **pretrained/**
+3.  Download **VAR_CLIP_D16** pretrain model put on **local_output/**
    
 >[**Download ClIP_L14**](https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt)<br>
 >[**Download VAE**](https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth)<br>
->[**Download VAR_CLIP Model Weight**](https://drive.google.com/file/d/1HlFgY3LysL0yDGSRvpi7bw7TwAztA2Ob/view?usp=drive_link)<br>
+>[**Download VAR_CLIP Model Weight**](https://drive.google.com/file/d/10gSxvaKaNKJcnqFhU7hQywU28w3nbgoV/view?usp=sharing)<br>
 
 
 
@@ -50,8 +51,8 @@ python run.py
 ```
 ## demo Scripts
 ```bash
-# you can run demo_samle.ipynb get text-conditional generation resulets after train completed.
-demo_sample.ipynb
+# you can run demo_samle.py get text-conditional generation resulets after train completed.
+python demo_sample.py
 ```
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
