@@ -33,9 +33,9 @@ pip install -r requirements.txt
 ```
 ### Download Pretrain model/Dataset
 <span style="font-siz15px;"> 
-1. Place the downloaded ImageNet train/val parts separately under **train/val** in the directory **./imagenet/** . <br>
-2. Download **Clip and Vae ** pretrain model put on **pretrained/**.<br>
-3. Download **VAR_CLIP_D16** pretrain model put on **local_output/**.<br>
+1. Place the downloaded ImageNet train/val parts separately under *train/val* in the directory **./imagenet/** . <br>
+2. Download **Clip and Vae** pretrain model put on **pretrained/**.<br>
+3. Download **VAR_CLIP_d16** pretrain model put on **local_output/**.<br>
 </span>   
 
    
