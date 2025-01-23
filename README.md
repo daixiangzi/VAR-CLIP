@@ -32,10 +32,12 @@
 pip install -r requirements.txt
 ```
 ### Download Pretrain model/Dataset
-<span style="font-siz15px;"> 1. Place the downloaded ImageNet train/val parts separately under **train/val** in the directory **./imagenet/**
+<span style="font-siz15px;"> 
+1. Place the downloaded ImageNet train/val parts separately under **train/val** in the directory **./imagenet/** . <br>
+2. Download **Clip and Vae ** pretrain model put on **pretrained/**.<br>
+3. Download **VAR_CLIP_D16** pretrain model put on **local_output/**.<br>
 </span>   
-2. Download **clip/vae** pretrain model put on **pretrained/**
-3.  Download **VAR_CLIP_D16** pretrain model put on **local_output/**
+
    
 >[**Download ClIP_L14**](https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt)<br>
 >[**Download VAE**](https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth)<br>
@@ -49,7 +51,7 @@ pip install -r requirements.txt
 # Before running, you need to configure the IP addresses of multiple machines in the run.py file and data_path
 python run.py
 ```
-## demo Scripts
+## Demo Scripts
 ```bash
 # you can run demo_samle.py get text-conditional generation resulets after train completed.
 python demo_sample.py
